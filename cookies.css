@@ -1,0 +1,125 @@
+#heading {
+    text-align: center;
+    background-image: url(heading.jpg);
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+}
+
+#about {
+    width: 1500px;
+    height: 200px;
+    background-image: url(about.jpg);
+    font-size: 20px;
+    color: purple;
+    margin: 2px;
+    border-radius: 5%;
+}
+
+#recipe {
+    font-size: 30px;
+    background-color: rgb(237, 220, 222);
+    text-align: center;
+}
+
+a:link {
+    color: purple;
+}
+
+.cookie {
+    margin: 5px;
+    height: 500px;
+}
+
+/* Define keyframes for animations */
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Add hover effect to cookie images */
+  .cookie:hover {
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  /* Add animation to recipe links */
+  #recipe p {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add animations to headings */
+  h1 {
+    animation: slideInFromTop 1s ease-in-out;
+  }
+  
+  h3 {
+    animation: slideInFromRight 1s ease-in-out;
+  }
+  
+  /* Add animation to hr element */
+  hr {
+    animation: slideInFromBottom 1s ease-in-out;
+  }
+  

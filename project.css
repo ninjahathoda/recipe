@@ -1,0 +1,668 @@
+#header {
+    text-align: center;
+    background-image: url(headingbackground.jpg);
+    height:80px;
+    line-height: 70px;
+  }
+#he1{
+    font-size: 50px;
+    align-content: center;
+    color: rgb(169, 34, 169);
+}
+#he2{
+    font-size: 40px;
+    align-content: center;
+    color: pink;
+}
+#pickup{
+    font-size: 20px;
+}
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:plum;
+    
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:pink;
+}
+#home{
+    width:130px;
+}
+#about{
+    width:130px;
+}
+#Services{
+    width:130px;
+}
+#contact{
+    width:130px;
+}
+#cookies{
+    width:130px;
+}
+#icecreams{
+    width:130px
+}
+#contact{
+    width:130px
+}
+#cupcakes{
+    width:130px
+}
+#waffles{
+    width:130px
+}
+#doughnut{
+    width:130px
+}
+#candies{
+    width:130px
+}
+#pancakes{
+    width:130px
+}
+
+#div1{
+    text-align: center;
+    width:250px;
+    height: 300px;
+    background-image: url(div1backnew.jpg);
+    border-radius: 10%;
+    line-height: 150px;
+    color: purple;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#div2{
+    background-image: url(div2backnew.jpg);
+    height: 300px;
+    width:400px;
+    color:rgb(131, 37, 131);
+    border-radius: 10%;
+    margin: 10px;
+    padding:10px;
+    line-height: 50px;
+}
+#container{
+    display:flex;
+}
+#div3{
+    background-image: url(div3back.jpg);
+    height: 300px;
+    width:400px;
+    color:rgb(131, 37, 131);
+    border-radius: 10%;
+    margin: 10px;
+    padding:10px;
+    line-height: 50px;
+}
+#share{
+    color: rgb(205, 87, 107);
+}
+#div4{
+    background-image: url(div4back.jpg);
+    height: 300px;
+    width:400px;
+    border-radius: 10%;
+    margin: 10px;
+    padding:10px;
+}
+#div1:hover{
+    cursor: pointer;
+}
+#div2:hover{
+    cursor: pointer;
+}
+#div3:hover{
+    cursor: pointer;
+}
+#div4:hover{
+    cursor: pointer;
+}
+#container2{
+    display: flex;
+}
+#div5{
+    background-image: url(div5back.jpg);
+    width:300px;
+    height:300px;
+    line-height: 200px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin:5px;
+    padding: 5px;
+}
+#div5:hover{
+    cursor: pointer;
+}
+#div6{
+    background-image: url(div6back.jpg);
+    width:200px;
+    height:300px;
+    border-radius: 5%;
+    margin:5px;
+    padding: 5px;
+}
+#div6:hover{
+    cursor: pointer;
+}
+#div7{
+    background-image: url(div7back.jpg);
+    width:300px;
+    height:300px;
+    border-radius: 5%;
+    margin:5px;
+    padding: 5px;
+}
+#div7:hover{
+    cursor: pointer;
+}
+#div8{
+    background-image: url(div8back.jpg);
+    width:420px;
+    height:300px;
+    border-radius: 5%;
+    margin:5px;
+    padding: 5px;
+}
+#div8:hover{
+    cursor: pointer;
+}
+#div9{
+    background-image: url(div9back.webp);
+    width:150px;
+    height:300px;
+    border-radius: 5%;
+    margin:5px;
+    padding: 5px;
+}
+#div9:hover{
+    cursor: pointer;
+}
+#famous_heading{
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+   
+}
+#famous{
+    width: 1500px;
+    height:350px;
+    background-image: url(famousback.jpg);
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
+#cake{
+    height:300px;
+    width:300px;
+    background-color: none;
+    border-radius: 5%;
+    border: 5px solid pink;
+    color: rgb(185, 83, 83);
+    margin:5px;
+}
+#cake_heading{
+    color:rgb(221, 154, 66);
+}
+#choco{
+    height:300px;
+    width:300px;
+    background-color: none;
+    border-radius: 5%;
+    border: 5px solid pink;
+    color: rgb(185, 83, 83);
+    margin:5px;
+}
+#choco_heading{
+    color:rgb(221, 154, 66);
+}
+#pizza{
+    height:300px;
+    width:300px;
+    background-color: none;
+    border-radius: 5%;
+    border: 5px solid pink;
+    color: rgb(185, 83, 83);
+    margin:5px;
+}
+#pizza_heading{
+    color:rgb(221, 154, 66);
+}
+#famous_cont{
+    background-image: url(famouscontback.jpg);
+    display:flex;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5%;
+
+}
+#belgian{
+    background-image: url(belgianback.jpg);
+    height:300px;
+    width:300px;
+    margin:5px;
+    border-radius: 5%;
+}
+#italian{
+    background-image: url(italianback.jpg);
+    height:300px;
+    width:300px;
+    margin:5px;
+    border-radius: 5%;
+}
+#chip{
+    background-image: url(chipback.jpg);
+    height:300px;
+    width:300px;
+    margin:5px;
+    border-radius: 5%;
+}
+#quote{
+    background-image: url(quoteback.png);
+    height:300px;
+    width:400px;
+    margin:5px;
+    border-radius: 5%;
+}
+
+#collection_heading{
+    color: purple;
+}
+#collection{
+    width:500px;
+    height:500px;
+    margin:5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+    background-image: url(collback.jpg);
+}
+#collection1{
+    display:flex;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+}
+#collection2{
+    display:flex;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+a:link{
+    color:brown;
+}
+#c{
+    text-align: center;
+    width:200px;
+    height:100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+    line-height: 100px;
+
+}
+#p{
+    width:200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+
+}
+#con{
+    display:flex;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    
+}
+#b{
+    width:200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+
+}
+#co{
+    width:200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+
+}
+#latest_heading{
+    color:purple;
+    text-align: center;
+}
+#mango{
+    width:400px;
+    height: 400px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+    color:palevioletred;
+    font-size: 20px;
+
+}
+#latest1{
+    display:flex;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+}
+#mangod{
+    width:300px;
+    height:250px;
+    border-radius: 5%;
+}
+#cheese{
+    width:300px;
+    height:250px;
+    border-radius: 5%;
+}
+#pizzal{
+    width:400px;
+    height: 400px;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 5px solid plum;
+    color:palevioletred;
+    font-size: 20px;
+
+}
+#latest{
+    background-image: url(latest1back.jpg);
+    border-radius: 5%;
+}
+/* Define transition for smooth effect */
+#div1 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div1:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  #div2 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div2:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  #div3 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div3:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div4 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div4:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div5 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div5:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div6 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div6:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div7 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div7:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div8 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div8:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #div9 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #div9:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #italian {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #italian:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  #chip {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #chip:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #quote {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #quote:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  #belgian {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  #belgian:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+
+  /* Add this CSS to your project.css file */
+
+/* Add this CSS to your project.css file */
+/* Add this CSS to your project.css file */
+
+/* Fade in the header */
+/* Add this CSS to your project.css file */
+
+/* Fade in the header */
+#header {
+    opacity: 0;
+    animation: fadeInHeader 1.5s ease forwards;
+  }
+  
+  @keyframes fadeInHeader {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide in the navigation bar */
+  ul {
+    opacity: 0;
+    animation: slideInNavBar 1.5s ease forwards;
+  }
+  
+  @keyframes slideInNavBar {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+/* Add this CSS to your project.css file */
+
+/* Animate the "Some of our famous recipes" heading */
+
+  #latest_heading {
+    position: relative;
+    animation: floatAnimation 5s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #famous_heading {
+    position: relative;
+    animation: floatAnimation 5s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  #collection_heading {
+    position: relative;
+    animation: floatAnimation 5s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  #mail{
+    text-align: center;
+    color: palevioletred;
+  }
+  
+  
+  
+  
+  
+  
+    

@@ -1,0 +1,36 @@
+#heading {
+    text-align: center;
+    background-image: url(heading.jpg);
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+}
+
+#bread-image {
+    margin: 5px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    color: #800080; /* Purple */
+}
+
+#ingredients, #instructions {
+    font-size: 20px;
+    text-align: center;
+    background-image: url(pinkbake.jpg);
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#enjoy-message {
+    font-size: 24px;
+    color: #FF6347; /* Tomato */
+    text-align: center;
+    margin-top: 50px;
+}

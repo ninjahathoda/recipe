@@ -1,0 +1,163 @@
+#heading{
+    text-align: center;
+}
+#about{
+    width:1500px;
+    height:200px;
+    background-image: url(about.jpg);
+    font-size: 20px;
+    color:purple;
+    margin:2px;
+    border-radius: 5%;
+}
+#recipe{
+    font-size: 30px;
+}
+a:link{
+    color:purple
+}
+.cake{
+    margin:5px;
+    height:500px;
+}
+#heading{
+    background-image: url(heading.jpg);
+}
+#recipe{
+    background-image:rgb(237, 220, 222);
+    text-align: center;
+}
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  .cake {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  .cake {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Add hover effect to cake images */
+  .cake:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  .cake {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Add hover effect to headings */
+  h1:hover,
+  h3:hover {
+    color: #bb51b6; /* Change to your desired hover color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Add animation effect to headings */
+  h1,
+  h3 {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  h1 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  h3 {
+    animation: fadeIn 1s ease-in-out;
+  }
+      
+

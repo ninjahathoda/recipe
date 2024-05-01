@@ -1,0 +1,174 @@
+#heading {
+    text-align: center;
+    background-image: url(heading.jpg);
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+}
+
+#about {
+    width: 1500px;
+    height: 200px;
+    background-image: url(about.jpg);
+    font-size: 20px;
+    color: purple;
+    margin: 2px;
+    border-radius: 5%;
+}
+
+#recipe {
+    font-size: 30px;
+    background-color: rgb(237, 220, 222);
+    text-align: center;
+}
+
+a:link {
+    color: purple;
+}
+
+.pizza {
+    margin: 5px;
+    height: 500px;
+}
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  #heading {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #about {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add hover effect to pizza images */
+  .pizza:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Add hover effect to pizza images */
+  .pizza:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add animations to headings */
+  h1, h3 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add animations to recipe list items */
+  #recipe p {
+    animation: fadeIn 1s ease-in-out;
+  }
+    /* Define keyframes for animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  #heading {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #about {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  #recipe {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Add hover effect to pizza images */
+  .pizza:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add animations to headings */
+  h1, h3 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add animations to recipe list items */
+  #recipe p {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Add animation to recipe links */
+  #recipe a {
+    animation: slideInFromRight 1s ease-in-out;
+  }
+  
+  /* Add animation to hr element */
+  hr {
+    animation: fadeIn 1s ease-in-out;
+  }
+  

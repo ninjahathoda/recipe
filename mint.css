@@ -1,0 +1,40 @@
+#heading {
+    background-image: url(heading.jpg); /* Replace with your heading image */
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#cake-image {
+    margin: 20px auto;
+    display: block;
+}
+
+h2 {
+    color: #8B4513; /* SaddleBrown */
+}
+
+#ingredients, #instructions {
+    font-size: 18px;
+    text-align: left;
+    background-image: url(pinkbake.jpg); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+#ingredients h2, #instructions h2 {
+    color: #8B4513; /* SaddleBrown */
+}
+
+#instructions h2 {
+    margin-top: 0; /* Remove default margin */
+}

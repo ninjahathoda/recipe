@@ -1,0 +1,39 @@
+#heading {
+    background-image: url(heading.jpg);
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#ice-cream {
+    margin: 5px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    color: purple;
+}
+
+#ing {
+    font-size: 20px;
+    text-align: center;
+    background-image: url(pinkbake.jpg);
+    height: 800px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20%;
+}
+
+#ins {
+    font-size: 20px;
+    text-align: center;
+    background-image: url(pinkbake.jpg);
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    border-radius: 20%;
+}
